@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  max-width: 100%;
+  filter: contrast(150%) blur(2px);
+}
+
+.banner .heading {
+  color: white;
+  position: absolute;
+  top: 25%;
+}
+
+.cod {
+  border: 5px solid white;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 4em;
+  font-family: fantasy;
+}
+
+.welcome {
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: monospace;
+}
