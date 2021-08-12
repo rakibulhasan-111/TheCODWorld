@@ -1,3 +1,23 @@
+header {
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+header a {
+  text-align: left;
+  color: white;
+  font-family: monospace;
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 36px;
+  font-size: 2em;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
 }
